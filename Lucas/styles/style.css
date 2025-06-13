@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Gilroy_Light"; 
+    src: url("../fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+}
+
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open-Sans", sans-serif;
+    font-size: 1rem; /* ~16px */
+    background-color: #faf0e6;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #faf0e6;
+    display:flex;
+}
+
+table {
+    border-collapse: collapse;
+    /* border: 1px solid; */
+}
+
+.col1 {
+    padding-left: 20px;
+    width: 200px;
+}
+
+.col2 {
+    padding: 10px;
+    width: 500px;
+}
+
+#Experiences table {
+    table-layout: auto;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+#image-perso {
+    width: 10vw; 
+    height: 10vw; 
+    overflow: hidden; 
+    justify-content: center;
+}
+
+.main-content {
+    margin-left: 20vw;
+    padding : 5px;
+    width : 80vw;
+}
+
+.topbar {
+    /* background-color: #faf0e6; */
+    background-color: #faf0e6;;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 20vw;
+    border-bottom: 2px solid gray
+}
+
+
+.topbar nav ul {
+    list-style: none;
+    /* padding: 0; */
+    display: flex;
+    align-content:space-around;
+    padding-inline-start: 0px;
+}
+
+.topbar nav ul li {
+    font-weight:bold;
+    font-size: 2rem;
+}
+
+.topbar nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #faf0e6;
+    color: rgb(0, 0, 0);
+    /* border-radius: 5px; */
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.topbar nav ul li a:hover {
+    background-color: #e0d7cf;
+}
+
+.content {
+    padding: 55px 20% 20px 0px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+h1 {
+    margin-block-start: 0.3em;
+    margin-block-end:0.3em;
+}
+
+h4 {
+    margin-block-start: 0.3em;
+    margin-block-end:0.3em;
+}
+
+.non-gras {
+    font-weight: normal;
+}
+
+h2 {
+    font-family : "Gilroy_Light";
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+section {
+    scroll-margin-top: 4rem;
+}
+
+/* ============= Formulaire ==================== */
+
+form {
+/* On centre le formulaire */
+margin: 0;
+width: 400px;
+/* Le contour du formulaire */
+padding: 1em;
+border: 1px solid #ccc;
+border-radius: 1em;
+text-align:center;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li:not(:first-child) {
+  margin-top: 1em;
+}
+
+form label {
+  display: inline-block;
+  width: 200px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+select {
+    font: 1em sans-serif;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    text-align:center;
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #000;
+}
+
+textarea {
+  height: 5em;
+  resize: vertical;
+}
+
+
+button {
+  margin-left: 0.5em;
+}
+
+#boutons-radio {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
