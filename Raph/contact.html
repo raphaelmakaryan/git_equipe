@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+</head>
+
+<body class="bodyRaph">
+
+    <header>
+        <nav class="navbar navbar-expand-lg" id="headerRaph">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-2 order-md-2" id="navbarTogglerDemo01">
+                    <ul class="w-100 navbar-nav nav justify-content-evenly mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  textWhite" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textWhite" href="./hobby.html">Hobby</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active textWhite" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="mb-2 mt-2">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12  d-flex justify-content-center align-items-center">
+                    <p class="mt-5 fs-1">ENVOIE MOI UN MAIL</p>
+                </div>
+                <div class="col-12  d-flex justify-content-center align-items-center">
+                    <a href="mailto:tuveutmenvoyezunmailtoi@gmail.com" class="fs-2 ">
+                        Ici
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12  d-flex justify-content-center align-items-center">
+                                <p class="mt-5 fs-2">Formulaire GET</p>
+                            </div>
+                            <div class="col-lg-4"></div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
+                                <form action="https://httpbin.org/get" method="get" class="border border-danger">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div
+                                                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column d-flex flex-column">
+                                                <label for="inputTextGET" class="mt-1">Input texte 1 :</label>
+                                                <input required type="text" id="inputTextGET" name="inputTextGET">
+                                            </div>
+                                            <div
+                                                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="check1GET">CHOIX 1</label>
+                                                <input type="radio" id="check1GET" name="choixRadio" value="check1GET"
+                                                    required>
+                                                <label for="check2GET">CHOIX 2</label>
+                                                  <input type="radio" id="check2GET" name="choixRadio" value="check2GET"
+                                                    required>
+                                            </div>
+                                            <div
+                                                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="selectPetsGET" class="mt-2">Select :</label>
+                                                <select name="selectPetsGET" id="selectPetsGET" class="mb-1 textBlack" multiple
+                                                    required>
+                                                    <option value="">--Please choose an option--</option>
+                                                    <option value="dog">Dog</option>
+                                                    <option value="cat">Cat</option>
+                                                    <option value="hamster">Hamster</option>
+                                                    <option value="parrot">Parrot</option>
+                                                    <option value="spider">Spider</option>
+                                                    <option value="goldfish">Goldfish</option>
+                                                </select>
+                                            </div>
+                                            <div
+                                                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="textAreaGET" class="mt-1">Text area :</label>
+                                                <textarea required id="textAreaGET" name="textAreaGET"
+                                                    class="mb-2"></textarea>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2 d-flex flex-column">
+                                                <input type="reset" value="Supprimer le formulaire" class="mt-2 textBlack">
+                                            </div>
+                                            <div
+                                                class=" col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2 d-flex flex-column d-flex justify-content-center">
+                                                <input type="submit" value="Envoyez le formulaire" class="textBlack">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4"></div>
+                            <div class="col-12  d-flex justify-content-center align-items-center">
+                                <p class="mt-5 fs-2">Formulaire POST</p>
+                            </div>
+                            <div class="col-lg-4"></div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
+                                <form action="https://httpbin.org/post" method="post" class="border border-danger">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div
+                                                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column d-flex flex-column">
+                                                <label for="inputTextGET" class="mt-1">Input texte 1 :</label>
+                                                <input required type="text" id="inputTextGET" name="inputTextGET">
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="check1GET">CHOIX 1</label>
+                                                <input type="radio" id="check1GET" name="choixRadio" value="check1GET" required>
+                                                <label for="check2GET">CHOIX 2</label>
+                                                  <input type="radio" id="check2GET" name="choixRadio" value="check2GET" required>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="selectPetsGET" class="mt-2">Select :</label>
+                                                <select name="selectPetsGET" id="selectPetsGET" class="mb-1 textBlack" multiple required>
+                                                    <option value="">--Please choose an option--</option>
+                                                    <option value="dog">Dog</option>
+                                                    <option value="cat">Cat</option>
+                                                    <option value="hamster">Hamster</option>
+                                                    <option value="parrot">Parrot</option>
+                                                    <option value="spider">Spider</option>
+                                                    <option value="goldfish">Goldfish</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2 d-flex flex-column">
+                                                <label for="textAreaGET" class="mt-1">Text area :</label>
+                                                <textarea required id="textAreaGET" name="textAreaGET" class="mb-2"></textarea>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2 d-flex flex-column">
+                                                <input type="reset" value="Supprimer le formulaire" class="mt-2 textBlack">
+                                            </div>
+                                            <div
+                                                class=" col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2 d-flex flex-column d-flex justify-content-center">
+                                                <input type="submit" value="Envoyez le formulaire" class="textBlack">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+
+    <section class="dFlexColumnCenter alignItemsCenter mt-5 mb-2">
+        <h2 class="Boldons Century text-pop-up-top">Formulaire GET</h2>
+        <form class="dFlexColumnCenter thisForm heartbea" action="https://httpbin.org/get" method="get">
+            <label for="inputTextGET" class="mt-1">Input texte 1 :</label>
+            <input required type="text" id="inputTextGET" name="inputTextGET">
+
+            <div class="mt-2">
+                <label for="check1GET">CHOIX 1</label>
+                <input type="radio" id="check1GET" name="choixRadio" value="check1GET" required>
+                <label for="check2GET">CHOIX 2</label>
+                  <input type="radio" id="check2GET" name="choixRadio" value="check2GET" required>
+            </div>
+
+            <label for="selectPetsGET" class="mt-2">Select :</label>
+            <select name="selectPetsGET" id="selectPetsGET" class="mb-1" multiple required>
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+
+            <label for="textAreaGET" class="mt-1">Text area :</label>
+            <textarea required id="textAreaGET" name="textAreaGET" class="mb-2"></textarea>
+
+            <input type="reset" value="Supprimer le formulaire" class="mt-2">
+            <input type="submit" value="Envoyez le formulaire">
+        </form>
+    </section>
+    -->
+
+    <footer class="mt-5 footerRaph">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-lg-4  mt-4 mb-4 d-flex justify-content-center align-items-center">
+                    <a href="mailto:tuveutmenvoyezunmailtoi@gmail.com">
+                        <img src="./imgs/mail.png" alt="mon mail" class="img-fluid " width="45" aria-label="mail">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mb-4  d-flex justify-content-center align-items-center">
+                    <p class="fs-6 mb-0">© 2025 - Created by RM</p>
+                </div>
+                <div class="col-12 col-lg-4  mt-4 mb-4 d-flex justify-content-center align-items-center">
+                    <a href="tel:+66118218"><img src="./imgs/phone.png" width="45" alt="mon num" class=" img-fluid"
+                            aria-label="numéro"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
