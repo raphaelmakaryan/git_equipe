@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Lucas" />
+    <meta name="description" content="Description dans la balise head" />
+    
+    <title>Lucas - CV en ligne</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="icon" type="image/png" href="images/lion.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="sidebar">
+        
+        <div id="image-perso">
+            <a href="index.html">
+                <img src="images/lucas.jpg" alt="lucas.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius:50%;">
+            </a>
+        </div>
+        
+        <h1><span class="non-gras">Lucas</span><br>MAIAUX</h1>
+        <ul>
+            <li>Mail : xxx.com</li>
+            <li>Annecy</li>
+            <li> Permis B + Véhicule</li>
+            <li>06 12 34 56 78</li>
+        </ul>
+        
+        <section class="Langues">
+            <h2>Langues</h2>
+            <p>Anglais : B2</p>
+            <p>Chinois : Bilingue</p>
+            <p>Egyptien : Bilingue</p>
+        </section>
+        
+        <section class="Informatique">
+            <h2>Languages</h2>
+            <p>C, C++, Ada, VB.Net</p>
+        </section>
+    </div>
+    
+    
+    <div class="main-content">
+        <div class="topbar ">
+            <nav>
+                <ul>
+                    <li><a href="index.html#Profil">Profil</a></li>
+                    <li><a href="index.html#Experiences">Expérience</a></li>
+                    <li><a href="index.html#Diplomes">Formation</a></li>
+                    <li><a href="index.html#Competences">Compétences</a></li>
+                    <li><a href="hobby.html">Loisirs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="content">
+            <section id="Hobbies">
+                <h2>Mes contacts</h2>
+                
+                
+                    <a href="mailto:votreadresse@mail.fr">Contactez-moi !</a>
+                    
+                    <form action="https://httpbin.org/post" method="post">
+                        <ul>
+                            <li>
+                                <label for="name">Nom&nbsp;:</label>
+                                <input type="text" id="name" name="user_name" required />
+                            </li>
+                            <li>
+                                <label for="mail">E-mail&nbsp;:</label>
+                                <input type="email" id="mail" name="user_mail" required/>
+                            </li>
+                            <li>
+                                <label for="naissance">Année de naissance :</label><br>
+                                <select multiple id="naissance" name="user_year">
+                                    <option value="1990">1990</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1994" selected>1994</option>
+                                    <option value="1995" selected>1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">Je suis un 2000</option>
+                                </select>
+                            </li>
+                            
+                            <li>
+                                <label for="msg">Message&nbsp;:</label>
+                                <textarea id="msg" name="user_message" required></textarea>
+                            </li>
+                        </ul>
+                        
+                        <div id="boutons-radio">
+                            <div>
+                                <input type="radio" id="Homme" name="user_sex" value="Homme" />
+                                <label for="Homme">Homme</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="Femme" name="user_sex" value="Femme" />
+                                <label for="Femme">Femme</label>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        <div class="button">
+                            <button type="submit">Envoyer le message</button>
+                        </div>
+                    </form>
+                    
+                
+            </section>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
