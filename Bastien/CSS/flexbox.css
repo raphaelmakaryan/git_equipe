@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 5000px;
+}
+
+.pink {
+    background: pink;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 45px;
+    left: 80px;
+}
+
+.red {
+    background: red;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 500px;
+    right: 1500px;
+}
+
+.green {
+    background: green;
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    top: 200px;
+}
+
+.blue {
+    background: blue;
+    height: 25px;
+    width: 25px;
+    position: sticky;
+    top: 15px;
+}

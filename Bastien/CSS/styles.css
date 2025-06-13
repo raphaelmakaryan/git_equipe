@@ -1,0 +1,45 @@
+body {
+    display: grid;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200%;
+    margin-top: 45px;
+}
+
+#entete {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#parcours {
+    color: rgb(6,27,40);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    position: sticky;
+    top: 50px;
+}
+
+img {
+    border-radius:29px;
+    width: 250px;
+    height: 300px;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
