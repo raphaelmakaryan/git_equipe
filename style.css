@@ -1,0 +1,82 @@
+/*#region BODY*/
+.textBlack {
+    color: #000 !important;
+}
+
+.textWhite {
+    color: #FDF2F7 !important;
+}
+/*#endregion BODY*/
+
+/*#region RAPH*/
+.photo {
+    width: 200px;
+    height: 200px !important;
+}
+
+#headerRaph {
+    background-color: #82193B;
+}
+
+.bodyRaph {
+    background-color: #4F081E !important;
+    font-family: "Open Sans" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #FDF2F7 !important;
+}
+
+.footerRaph {
+    color: #FDF2F7;
+    border: 10px solid #CC1C57;
+    background: #82193B;
+}
+
+.espacement10 {
+    margin-bottom: 10rem !important;
+}
+/*#endregion RAPH*/
+
+/*#region SARAH*/
+
+.bodySarah {
+    text-align: center;
+    background-color: #f8d7da !important;
+}
+
+.fontColorSarah {
+    color: #4F081E;
+}
+
+.photoProfilSarah {
+    width: 200px;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 199px;
+    height: 42px;
+}
+
+.bgLinearGradient {
+    border-radius: 10px;
+    background: linear-gradient(#4F081E, #CC1C57);
+}
+
+.iconSarah {
+    width: 40px;
+}
+
+.listSarah {
+    list-style-type: none;
+}
+
+.colorLinkSarah>a {
+    color: #FBCFE4;
+    text-decoration: #FBCFE4;
+}
+
+/*#endregion SARAH*/
+
+/*#region MEDIAQUERIS*/
+/*#endregion MEDIAQUERIS*/

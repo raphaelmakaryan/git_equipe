@@ -1,0 +1,160 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --red: red;
+    --green: #00ff00;
+    --yellow: #ffff00;
+    --purple: #800080;
+}
+
+
+.element {
+    animation-name: exempleAnimation;
+    animation-duration: 2s;
+    /* Durée de l'animation */
+    animation-iteration-count: infinite;
+    /* Répéter l'animation
+à l'infini */
+}
+
+
+@keyframes exempleAnimation {
+    from {
+        transform: rotate(0deg);
+        /* Début de l'animation */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Fin de l'animation */
+    }
+}
+
+.changeColorAnimation {
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: var(--red);
+    }
+
+    30% {
+        background-color: var(--green)
+    }
+
+    68%,
+    72% {
+        background-color: var(--purple)
+    }
+
+    100% {
+        background-color: var(--yellow)
+    }
+}
+
+.translatePosition {
+    animation-name: translatePositionAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes translatePositionAnimation {
+    0% {
+        margin-right: 100%;
+        width: 300%;
+    }
+
+    50% {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    100% {
+        margin-right: 100%;
+        width: 300%;
+    }
+}
+
+.rotateEnlargeReduce {
+    animation-name: rotateEnlargeReduceAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateEnlargeReduceAnimation {
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        margin-left: 50%;
+        transform: rotate(360deg);
+    }
+
+    75% {
+        margin-left: 50%;
+        width: 500px;
+    }
+
+    100% {
+        margin-left: 50%;
+        width: 10px;
+    }
+}
+
+
+.AppearanceDisappearance {
+    animation-name: AppearanceDisappearanceAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes AppearanceDisappearanceAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.megaAnimation {
+    animation: changeColor 2s infinite,
+        translatePositionAnimation 2s infinite,
+        rotateEnlargeReduceAnimation 5s infinite,
+        AppearanceDisappearanceAnimation 2s infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        background-color: var(--white) !important;
+        color: var(--black) !important;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    a {
+        background-color: var(--black) !important;
+        color: var(--white) !important;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
