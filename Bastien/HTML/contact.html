@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacter Bastien DELMAS</title>
+    <link rel="stylesheet" href="../CSS/contacts.css">
+</head>
+
+<body>
+    <section class="contact">
+        <h1>Bastien DELMAS
+        </h1>
+        
+        <p>Me contacter :
+        </p>
+        
+        <ul>
+            <li>
+                <a href="mailto:bastien.delmas@le-campus-numerique.fr">bastien.delmas@le-campus-numerique.fr
+                </a>
+            </li>
+            <li>
+                <a href="tel:+33767732732">07.67.73.27.32
+                </a>
+            </li>
+        </ul>
+        <form action="https://httpbin.org/get" method="get">
+            <h2>Formulaire de contact</h2>
+            <input type="text" name="NOM Prénom" placeholder="NOM Prénom">
+            <div>
+                <label for="partinput">Particulier</label>
+                <input type="radio" id="partinput" name="choixRadio" value="part">
+                <label for="enterinput">Entreprise</label>
+                <input type="radio" id="enterinput" name="choixRadio" value="enter">
+            </div>
+            <div>
+                <label for="contact-motif">Le pourquoi du comment :
+                </label>
+            </div>
+            <div>
+            <select name="motif" id="contact-motif" multiple>
+                <option value="">Choisissez un motif</option>
+                <option value="devis">Devis</option>
+                <option value="renseignement">Renseignement</option>
+                <option value="smile">Sourire</option>
+                <option value="coffee">Café</option>
+            </select>
+            </div>
+        <label for="story">Votre requête :</label><br>
+        <textarea id="story" name="story" rows="5" cols="33" required>
+        </textarea>
+        <button type="submit">Soumettre</button>
+        
+    </form>
+</section>
+</body>
+</html>
